@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Logo</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li>
+          <a href="sass.html">Sass</a>
+        </li>
+        <li>
+          <a href="badges.html">Components</a>
+        </li>
+        <li>
+          <a href="collapsible.html">Javascript</a>
+        </li>
+        <li>
+          <a href="mobile.html">Mobile</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li>
+      <a href="sass.html">Sass</a>
+    </li>
+    <li>
+      <a href="badges.html">Components</a>
+    </li>
+    <li>
+      <a href="collapsible.html">Javascript</a>
+    </li>
+    <li>
+      <a href="mobile.html">Mobile</a>
+    </li>
+  </ul>
+
+  <br>
+  <form>
+      <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <i class="material-icons prefix">mode_edit</i>
+                <textarea id="meal" class="materialize-textarea"></textarea>
+                <label for="meal">Enter dish: </label>
+              </div>
+            </div>
+          </form>
+        </div>
+    <div class="input-field col s12">
+      <select multiple id="allergy">
+        <option value="" disabled selected>Choose your allergy</option>
+        <option value="393^Gluten-Free">Gluten Free</option>
+        <option value="394^Peanut-Free">Peanut Free</option>
+        <option value="398^Seafood-Free">Seafood Free</option>
+        <option value="399^Sesame-Free">Sesame Free</option>
+        <option value="400^Soy-Free">Soy Free</option>
+        <option value="396^Dairy-Free">Dairy Free</option>
+        <option value="397^Egg-Free">Egg Free</option>
+        <option value="401^Sulfite-Free">Sulfite Free</option>
+        <option value="395^Tree Nut-Free">Tree Nut-Free</option>
+        <option value="392^Wheat-Free">Wheat-Free</option>
+      </select>
+      <label>Allergies?</label>
+    </div>
+    <div class="input-field col s12">
+      <select multiple id="diet">
+        <option value="" disabled selected>Choose your diet</option>
+        <option value="388^Lacto vegetarian">Lacto vegetarian</option>
+        <option value="389^Ovo vegetarian">Ovo vegetarian</option>
+        <option value="390^Pescetarian">Pescetarian</option>
+        <option value="386^Vegan">Vegan</option>
+        <option value="387^Lacto-ovo vegetarian">Lacto-ovo vegetarian</option>
+        <option value="403^Paleo">Paleo</option>
+      </select>
+      <label>Diet?</label>
+    </div>
+    <div class="input-field col s12">
+      <select multiple id="cuisine">
+        <option value="" disabled selected>Choose your cuisine</option>
+        <option value=cuisine^cuisine-american>American</option>
+        <option value=cuisine^cuisine-kid-friendly>Kid-Friendly</option>
+        <option value=cuisine^cuisine-italian>Italian</option>
+        <option value=cuisine^cuisine-asian>Asian</option>
+        <option value=cuisine^cuisine-mexican>Mexican</option>
+        <option value=cuisine^cuisine-southern>Southern & Soul Food</option>
+        <option value=cuisine^cuisine-french>French</option>
+        <option value=cuisine^cuisine-southwestern>Southwestern</option>
+        <option value=cuisine^cuisine-barbecue-bbq>Barbecue</option>
+        <option value=cuisine^cuisine-indian>Indian</option>
+        <option value=cuisine^cuisine-chinese>Chinese</option>
+        <option value=cuisine^cuisine-cajun>Cajun & Creole</option>
+        <option value=cuisine^cuisine-mediterranean>Mediterranean</option>
+        <option value=cuisine^cuisine-greek>Greek</option>
+        <option value=cuisine^cuisine-english>English</option>
+        <option value=cuisine^cuisine-spanish>Spanish</option>
+        <option value=cuisine^cuisine-thai>Thai</option>
+        <option value=cuisine^cuisine-german>German</option>
+        <option value=cuisine^cuisine-moroccan>Moroccan</option>
+        <option value=cuisine^cuisine-irish>Irish</option>
+        <option value=cuisine^cuisine-japanese>Japanese</option>
+        <option value=cuisine^cuisine-cuban>Cuban</option>
+        <option value=cuisine^cuisine-hawaiian>Hawaiian</option>
+        <option value=cuisine^cuisine-swedish>Swedish</option>
+        <option value=cuisine^cuisine-hungarian>Hungarian</option>
+        <option value=cuisine^cuisine-portuguese>Portuguese</option>
+      </select>
+      <label>Cuisine?</label>
+    </div>
+    <div class="input-field col s12">
+      <select multiple id="course">
+        <option value="" disabled selected>Choose your course</option>
+        <option value=course^course-Main Dishes>Main Dishes</option>
+        <option value=course^course-Desserts>Desserts</option>
+        <option value=course^course-Side Dishes>Side Dishes</option>
+        <option value=course^course-Appetizers>Appetizers</option>
+        <option value=course^course-Salads>Salads</option>
+        <option value=course^course-Breakfast and Brunch>Breakfast and Brunch</option>
+        <option value=course^course-Breads>Breads</option>
+        <option value=course^course-Soups>Soups</option>
+        <option value=course^course-Beverages>Beverages</option>
+        <option value=course^course-Condiments and Sauces>Condiments and Sauces</option>
+        <option value=course^course-Cocktails>Cocktails</option>
+        <option value=course^course-Snacks>Snacks</option>
+        <option value=course^course-Lunch>Lunch</option>
+      </select>
+      <label>Allergies?</label>
+    </div>
+    <div class="input-field col s12">
+      <select multiple id="holiday">
+        <option value="" disabled selected>Choose your holiday</option>
+        <option value=holiday^holiday-christmas>Christmas</option>
+        <option value=holiday^holiday-thanksgiving>Thanksgiving</option>
+        <option value=holiday^holiday-summer>Summer</option>
+        <option value=holiday^holiday-fall>Fall</option>
+        <option value=holiday^holiday-new-year>New Year</option>
+        <option value=holiday^holiday-super-bowl>Game Day</option>
+        <option value=holiday^holiday-winter>Winter</option>
+        <option value=holiday^holiday-spring>Spring</option>
+        <option value=holiday^holiday-halloween>Halloween</option>
+        <option value=holiday^holiday-valentines-day>Valentine's Day</option>
+        <option value=holiday^holiday-hanukkah>Hanukkah</option>
+        <option value=holiday^holiday-passover>Passover</option>
+        <option value=holiday^holiday-easter>Easter</option>
+        <option value=holiday^holiday-st-patricks-day>St. Patrick's Day</option>
+        <option value=holiday^holiday-chinese-new-year>Chinese New Year</option>
+        <option value=holiday^holiday-4th-of-july>4th of July</option>
+      </select>
+      <label>Allergies?</label>
+    </div>
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s6">
+            <i class="material-icons prefix">mode_edit</i>
+            <textarea id="time" class="materialize-textarea"></textarea>
+            <label for="time">Enter desired cooking time (minutes): </label>
+          </div>
+        </div>
+      </form>
+    </div>
+    <button class="btn waves-effect waves-light" type="submit" name="action" id="submit">Submit
+      <i class="material-icons right">send</i>
+    </button>
+  </form>
+
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('select').formSelect();
+
+      $("#submit").on("click", function (e) {
+        event.preventDefault();
+        var searchPhrase = $("#meal").val()
+        var allergies = $("#allergy").val()
+        var diets = $("#diet").val()
+        var cuisines = $("#cuisine").val()
+        var courses = $("#course").val()
+        var holidays = $("#holiday").val()
+        var time = parseInt($("#time").val()) * 60
+        console.log(time)
+
+        var requiredPictures = true;
+        var url = `http://api.yummly.com/v1/api/recipes?_app_id=6fe80130&_app_key=e47479bfbd3e29b4ddd5ceb95d60916f&q=${searchPhrase.replace(' ', '+')}&requirePictures=true${allergies.map(allergy => {
+          return '&allowedAllergy[]=' + allergy
+        }).join('')}${diets.map(diet => {
+          return '&allowedDiet[]=' + diet
+        }).join('')}${cuisines.map(cuisine => {
+          return '&allowedCuisine[]=' + cuisine
+        }).join('')}${courses.map(course => {
+          return '&allowedCourse[]=' + course
+        }).join('')}${holidays.map(holiday => {
+          return '&allowedHoliday[]=' + holiday
+        }).join('')}`
+        console.log(url)
+
+        $.ajax({
+          url: url,
+          method: 'GET'
+        }).then(res => {
+          console.log(res)
+        }).catch(err => {
+          console.log(err)
+        })
+      })
+    })
+
+  </script>
+
+</body>
+
+</html>
